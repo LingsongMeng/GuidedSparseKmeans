@@ -1,0 +1,15 @@
+Package: GuidedSparseKmeans
+Title: Guided Sparse K-means
+Version: 1.0.0
+Authors@R: 
+    person(given = "Lingsong",
+           family = "Meng",
+           role = c("aut", "cre"),
+           email = "lingsongmeng@ufl.edu")
+Description: Outcome Guided Sparse K-means for Disease Subtype Discovery via Integrating Phenotypic Data with High-dimensional Transcriptomic Data.
+Depends: cluster, DescTools, MASS, survival, jaccard, mclust, stats, R(>= 3.5.0)
+License: GPL-2
+NeedsCompilation: no
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
